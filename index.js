@@ -1,9 +1,10 @@
 
 const express =  require('express');
-const { readFile } = require('fs');
+//const { readFile } = require('fs');
 const { request } = require('http');
 
 const app = express();
+const { readFile } = require('fs').promises;
 
 // app.get('/', (request, response) => {
 
